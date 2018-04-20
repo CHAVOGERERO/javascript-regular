@@ -15,13 +15,14 @@ var chkOption = {
     patternOnlyBLANK : /^\s+|\s+$/g
 };
 ```
-patternID    = 아이디   검사 (영문+숫자 조합-영어가 먼저시작하든 숫자가 먼저시작하든 상관없음)<br/>
-patternPW    = 비밀번호 검사 (영문+숫자+특수문자 조합한 8자리 이상)<br/>
-patternNAME  = 이름     검사 (한글만 입력하여 2자리 이상 4자리 이하)<br/>
-patternPHONE = 휴대폰   검사 (xxx-xxx-xxxx || xxx-xxxx-xxxx 체크)<br/>
-patternTEL   = 전화번호 검사 (xx-xxx-xxxx || xx-xxxx-xxxx || xxx-xxx-xxxx || xxx-xxxx-xxxx 체크)<br/>
-patternEMAIL = 이메일   검사 <br/>
-patternURL   = URL     검사 <br/>
+patternID          = 아이디   검사 (영문+숫자 조합-영어가 먼저시작하든 숫자가 먼저시작하든 상관없음)<br/>
+patternPW          = 비밀번호 검사 (영문+숫자+특수문자 조합한 8자리 이상)<br/>
+patternNAME        = 이름     검사 (한글만 입력하여 2자리 이상 4자리 이하)<br/>
+patternPHONE       = 휴대폰   검사 (xxx-xxx-xxxx || xxx-xxxx-xxxx 체크)<br/>
+patternTEL         = 전화번호 검사 (xx-xxx-xxxx || xx-xxxx-xxxx || xxx-xxx-xxxx || xxx-xxxx-xxxx 체크)<br/>
+patternEMAIL 	   = 이메일   검사 <br/>
+patternURL         = URL     검사 <br/>
+patternOnlyBLANK   = 공백     검사 <br/>
 
 # 전화번호 & 휴대폰번호 & 인터넷전화 하이픈(-) 자동입력
 ```
