@@ -5,13 +5,14 @@ javascript-regular & tel functioni
 
 ```
 var chkOption = {
-    patternID    : /[^a-z0-9]/gi,
-    patternPW    : /^(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])(?=.*[0-9]).{8,}/,
-    patternNAME  : /^[가-힣]{2,4}$/,
-    patternPHONE : /^\d{3}-\d{3,4}-\d{4}$/,
-    patternTEL   : /^\d{2,3}-\d{3,4}-\d{4}$/,
-    patternEMAIL : /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i,
-    patternURL   : /http:\/\/[A-Za-z0-9\.-]{3,}\.[A-Za-z]{2,3}/
+    patternID        : /[^a-z0-9]/gi,
+    patternPW        : /^(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])(?=.*[0-9]).{8,}/,
+    patternNAME      : /^[가-힣]{2,4}$/,
+    patternPHONE     : /^\d{3}-\d{3,4}-\d{4}$/,
+    patternTEL       : /^\d{2,3}-\d{3,4}-\d{4}$/,
+    patternEMAIL     : /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i,
+    patternURL       : /http:\/\/[A-Za-z0-9\.-]{3,}\.[A-Za-z]{2,3}/,
+    patternOnlyBLANK : /^\s+|\s+$/g
 };
 ```
 patternID    = 아이디   검사 (영문+숫자 조합-영어가 먼저시작하든 숫자가 먼저시작하든 상관없음)<br/>
