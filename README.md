@@ -1,5 +1,5 @@
 # javascript-regular
-javascript-regular & tel functioni
+javascript-regular & tel function
 
 # 자바스크립트 유용한 정규식 모음
 
